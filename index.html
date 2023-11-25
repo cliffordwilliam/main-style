@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Style</title>
+    <link rel="stylesheet" href="mainStyle.css">
+</head>
+<body>
+    <header>
+        <!-- <h1>Semantic HTML Page | Main Style</h1> -->
+        <span class="logo">Semantic HTML Page | Main Style</span>
+        <nav>
+            <ul id="m1">
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+                <li><button onclick="document.getElementById('m1').classList.remove('on')">Close</button></li>
+            </ul>
+            <button onclick="document.getElementById('m1').classList.add('on')">Menu</button>
+        </nav>
+        <section class="hero">
+            <h1>Semantic HTML Page | Main Style</h1>
+            <p>Welcome to a world of semantic web development.</p>
+            <img src="https://picsum.photos/1920/1080" alt="Hero Image">
+        </section>
+    </header>
+    <main>
+        <article id="section1">
+            <header>
+                <h2>Section 1</h2>
+            </header>
+            <p>Before you can understand how to program the web, you need a more rigorous understanding of the web itself than you likely have now. These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work.</p>
+            <figure>
+                <img src="https://picsum.photos/600" alt="lorempicsum">
+                <figcaption>Image Caption</figcaption>
+            </figure>
+            <p>Before you can understand how to program the web, you need a more rigorous understanding of the web itself than you likely have now. These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work.</p>
+            <ul>
+                <li><strong>Computer</strong></li>
+                <li><strong><a href="https://www.google.com/" target="_blank">Google</a></strong></li>
+                <li><strong>Text Editor</strong></li>
+                <li><strong>Command Line Interface (CLI)</strong></li>
+                <li><strong><a href="http://stackoverflow.com/" target="_blank">Stack Overflow</a></strong></li>
+                <li><strong><a href="https://git-scm.com/" target="_blank">Git</a></strong></li>
+                <li><strong><a href="https://github.com/" target="_blank">GitHub</a></strong></li>
+            </ul>
+        </article>
+        <article id="section2">
+            <header>
+                <h2>Section 2</h2>
+            </header>
+            <p>Before you can understand how to program the web, you need a more rigorous understanding of the web itself than you likely have now. These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work.</p>
+            <div class="pad-con">
+<pre><code>&lthtml&gt;
+    &lt;head&gt;
+        &lt;title&gt;Title Title Title Title Title Title Title Title Title Title Title Title Title Title &lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </div>
+            <ol>
+                <li><strong>Computer</strong></li>
+                <li><strong><a href="https://www.google.com/" target="_blank">Google</a></strong></li>
+                <li><strong>Text Editor</strong></li>
+                <li><strong>Command Line Interface (CLI)</strong></li>
+                <li><strong><a href="http://stackoverflow.com/" target="_blank">Stack Overflow</a></strong></li>
+                <li><strong><a href="https://git-scm.com/" target="_blank">Git</a></strong></li>
+                <li><strong><a href="https://github.com/" target="_blank">GitHub</a></strong></li>
+            </ol>
+        </article>
+        <article id="section3">
+            <header>
+                <h2>Section 3</h2>
+            </header>
+            <p>Section 3 content</p>
+            <header>
+                <h3>Table</h3>
+            </header>
+            <p>Test table</p>
+            <div class="table-con">
+                <table>
+                    <caption>Table Caption</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Header 1</th>
+                            <th scope="col">Header 2</th>
+                            <th scope="col">Header 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Item</td>
+                            <td>Item</td>
+                            <td>Item</td>
+                        </tr>
+                        <tr>
+                            <td>Item</td>
+                            <td>Item</td>
+                            <td>Item</td>
+                        </tr>
+                        <tr>
+                            <td>Item</td>
+                            <td>Item</td>
+                            <td>Item</td>
+                        </tr>
+                        <tr>
+                            <td>Item</td>
+                            <td>Item</td>
+                            <td class="button-con">
+                                <a class="button" href="#">Button</a>
+                                <a class="button" href="#">Button</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <header>
+                <h3>Form</h3>
+            </header>
+            <p>Test form</p>
+            <div class="pad-con">
+                <form>
+                    <div>
+                        <label for="text">Text:</label>
+                        <input type="text" id="text" name="text">
+                    </div>
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="number">Number:</label>
+                        <input type="number" id="number" name="number">
+                    </div>
+                    <div class="form-flex-con">
+                        <label for="checkbox-1">Checkbox:</label>
+                        <input type="checkbox" id="checkbox-1" name="checkbox-1">
+                    </div>
+                    <div class="form-flex-con">
+                        <label for="checkbox-2">Checkbox:</label>
+                        <input type="checkbox" id="checkbox-2" name="checkbox-2">
+                    </div>
+                    <div class="form-flex-con">
+                        <label for="checkbox-3">Checkbox:</label>
+                        <input type="checkbox" id="checkbox-3" name="checkbox-3">
+                    </div>
+                    <div class="form-flex-con">
+                        <label for="radio-input-1">Radio Button 1:</label>
+                        <input type="radio" id="radio-input-1" name="radio-input-1">
+                    </div>
+                    <div class="form-flex-con">
+                        <label for="radio-input-2">Radio Button 2:</label>
+                        <input type="radio" id="radio-input-2" name="radio-input-1" checked="checked">
+                    </div>
+                    <div>
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div>
+                        <label for="file">File:</label>
+                        <input type="file" id="file" name="file">
+                    </div>
+                    <div>
+                        <label for="select">Select:</label>
+                        <select name="select" id="select">
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="textarea">Textarea:</label>
+                        <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+                    </div>
+                    <div>
+                        <label for="color">Color:</label>
+                        <input type="color" id="color" name="color">
+                    </div>
+                    <div>
+                        <label for="range">Range:</label>
+                        <input type="range" id="range" name="range" min="0" max="5">
+                    </div>
+                    <div>
+                        <label for="week">Week:</label>
+                        <input type="week" id="week" name="week">
+                    </div>
+                    <div>
+                        <label for="url">URL:</label>
+                        <input type="url" id="url" name="url">
+                    </div>
+                    <div>
+                        <label for="search">Search:</label>
+                        <input type="search" id="search" name="search">
+                    </div>
+                    <div>
+                        <label for="tel">Tel:</label>
+                        <input type="tel" id="tel" name="tel">
+                    </div>
+                    <div>
+                        <label for="datetime-local">Datetime-local:</label>
+                        <input type="datetime-local" id="datetime-local" name="datetime-local">
+                    </div>
+                    <input class="button" type="submit" value="Submit">
+                </form>
+            </div>
+        </article>
+        <section>
+            <header>
+                <h2>Card Gallery</h2>
+            </header>
+            <p>Read this for semantic: <a href="https://www.semrush.com/blog/semantic-html5-guide/">Ref</a></p>
+            <div class="card-gallery">
+                <div class="card">
+                    <img src="https://picsum.photos/600" alt="lorempicsum">
+                    <h3>Card Title</h3>
+                    <p>Description</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/600" alt="lorempicsum">
+                    <h3>Card Title</h3>
+                    <p>Description</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/600" alt="lorempicsum">
+                    <h3>Card Title</h3>
+                    <p>Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/600" alt="lorempicsum">
+                    <h3>Card Title</h3>
+                    <p>Description</p>
+                    <div class="button-con">
+                        <a class="button" href="#">Button</a>
+                        <a class="button" href="#">Button</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Semantic HTML Page | Main Style. All rights reserved.</p>
+    </footer>
+</body>
+</html>
